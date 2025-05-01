@@ -8,11 +8,12 @@
 }
 
 @theme {
-  --font-family: 'normal';
-  --color-lightGreen: #00e2c5;
-}
+  /* Colors */
+  --color-blueColor: #005bff;
+  --color-whiteColor: #ffffff;
+  --color-blackColor: #000000;
+  --color-greenColor: #00e2c5;
 
-/* Add a custom CSS class for your font */
-.agrandir-font {
-  font-family: 'Agrandir', sans-serif;
+  /* Fonts */
+  --font-Agrandir: 'Agrandir';
 }

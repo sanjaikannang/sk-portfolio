@@ -1,10 +1,12 @@
-import HeroSection from "./Components/HeroSection/HeroSection"
+import Layout from "./Layout/Layout"
 
 function App() {
 
   return (
     <>
-      <HeroSection />
+
+      <Layout />
+
     </>
   )
 }
