@@ -11,7 +11,10 @@ import SkillsSection from "../Components/SkillsSection/SkillsSection"
 const Layout = () => {
     return (
         <>
-            <Navbar />
+
+            <div className="fixed top-0 w-full z-50">
+                <Navbar />
+            </div>
 
             <HeroSection />
 
