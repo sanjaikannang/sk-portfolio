@@ -45,7 +45,7 @@ const Navbar = () => {
         <>
             {/* Top NavBar */}
             <div className="flex justify-center items-center p-4">
-                <div className='hidden lg:flex bg-whiteColor p-2 rounded-full px-14 py-4 shadow-lg'>
+                <div className='hidden lg:flex bg-whiteColor p-2 rounded-full border border-gray-300 px-14 py-4 shadow-lg'>
                     <div className="flex items-center">
                         {topnavItems.map((item) => (
                             <button
